@@ -1,0 +1,13 @@
+CRITICAL - 2026-09-27 05:43:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/welcome.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/welcome.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/welcome', [], true)
+ 3 APPPATH\Controllers\Pages.php(19): view('pages/welcome', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Pages->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\user\\Desktop\\TechnicalSummative1\\Technical-Summative-1\\public\\index.php')
